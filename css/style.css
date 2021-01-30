@@ -138,7 +138,7 @@ nav ul li a:hover, a.active{
 
 /* extra section  */
 #submit-area{
-    /* display: none; */
+    display: none;
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
