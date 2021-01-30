@@ -139,5 +139,14 @@ economyDecrementBtn.addEventListener('click', function () {
         //     document.getElementById('grand-total').innerText = grandTotal;
         // })
 
-        // crate handler for submit area 
+// crate handler for submit area 
+const bookNow=document.getElementById('book-now');
+bookNow.addEventListener('click',function(){
+    const buyArea=document.getElementById('buy-area');
+    buyArea.style.display='none';
+    const submitArea=document.getElementById('submit-area');
+    submitArea.style.display='block';
+    
+})
+
 

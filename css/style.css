@@ -147,6 +147,7 @@ nav ul li a:hover, a.active{
     padding: 1rem;
     color: rgb(19, 67, 122);
     font-size: 2.5rem;
+    color: #ffffff;
 }
 .submit-area{
     box-shadow: 10px 10px 20px #b9e6ae;
@@ -155,6 +156,8 @@ nav ul li a:hover, a.active{
     margin: auto;
     padding: 2rem;
     border-radius: 0.5rem;
+    background-color: #66c0a2;
+    
 }
 .submit-area h3{
     color: #256e25;
