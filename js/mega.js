@@ -37,34 +37,6 @@ function addChangeTicketValue(increment, classOfTicket) {
 }
 
 
-// Creating Handle for first class Ticket increment 
-const firstClassIncrementBtn = document.getElementById('first-class-increment');
-firstClassIncrementBtn.addEventListener('click', function () {
-    addChangeTicketValue(true, 'first-class-ticket-count');
-});
-
-
-// Creating Handle for first Ticket class decrement 
-const firstClassDecrementBtn = document.getElementById('first-class-decrement');
-firstClassDecrementBtn.addEventListener('click', function () {
-    addChangeTicketValue(false, 'first-class-ticket-count');
-});
-
-
-// Creating Handle for economy Ticket increment 
-const economyIncrementBtn = document.getElementById('economy-increment');
-economyIncrementBtn.addEventListener('click', function () {
-    addChangeTicketValue(true, 'economy-ticket-count');
-});
-
-
-// Creating Handle for economy Ticket decrement 
-const economyDecrementBtn = document.getElementById('economy-decrement');
-economyDecrementBtn.addEventListener('click', function () {
-    addChangeTicketValue(false, 'economy-ticket-count');
-});
-
-
 // crate handler function for submit area 
 function submitTicket() {
     const firstClassTicketCount = getTicketValue('first-class-ticket-count');

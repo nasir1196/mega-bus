@@ -73,7 +73,9 @@
                                     value="0">
                             </div>
                             <div class="plus-minus-btn">
-                                <p> <button id="first-class-increment">+</button> <button
+                                <p> <button onclick="addChangeTicketValue(true, 'first-class-ticket-count')"
+                                        id="first-class-increment">+</button> <button
+                                        onclick="addChangeTicketValue(false, 'first-class-ticket-count')"
                                         id="first-class-decrement">-</button>
                                 </p>
                             </div>
@@ -86,7 +88,10 @@
                                     value="0">
                             </div>
                             <div class="plus-minus-btn">
-                                <p> <button id="economy-increment">+</button> <button id="economy-decrement">-</button>
+                                <p> <button onclick="addChangeTicketValue(true, 'economy-ticket-count')"
+                                        id="economy-increment">+</button> <button
+                                        onclick="addChangeTicketValue(false, 'economy-ticket-count')"
+                                        id="economy-decrement">-</button>
                                 </p>
                             </div>
                         </div>
