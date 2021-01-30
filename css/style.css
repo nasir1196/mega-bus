@@ -1,176 +1,196 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    background:url("../images/bus.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("../images/bus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
 }
-nav{
-    height: 50px;
-    width: 100%;
-    padding: 20px 0;
+nav {
+  height: 50px;
+  width: 100%;
+  padding: 20px 0;
 }
-.container{
-    width: 100%;
-    max-width: 85%;
-    margin: 0 auto;
+.container {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
 }
-nav ul{
-    display: flex;
-    justify-content: flex-end;
-    margin: 0px 6px;
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 6px;
 }
-nav ul li a{
-    color: #fff;
-    padding: 10px;
-    text-transform: uppercase;
-    margin-left: 30px;
+nav ul li a {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-left: 30px;
 }
-nav ul li a:hover, a.active{
-    background-color: #52AF3A;
-    border-radius: 5px;
+nav ul li a:hover,
+a.active {
+  background-color: #52af3a;
+  border-radius: 5px;
 }
-.main-content{
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 70px;
-    align-items: center;
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 70px;
+  align-items: center;
 }
-.booking-content{
-    color: #fff;
-    width: 100%;
-    float: left;
-    margin-left: 50px;
+.booking-content {
+  color: #fff;
+  width: 100%;
+  float: left;
+  margin-left: 50px;
 }
-.booking-content h1{
-    font-size: 70px;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 500;
+.booking-content h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
 }
-.booking-form{
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    float: right;
-    width: 80%;
-    margin: 50px 0px 0px 80px;
+.booking-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  width: 80%;
+  margin: 50px 0px 0px 80px;
 }
-.booking-form h3{
-    margin: 10px 0px;
+.booking-form h3 {
+  margin: 10px 0px;
 }
-.booking-form  .input-group{
-    margin: 10px 0;
+.booking-form .input-group {
+  margin: 10px 0;
 }
-.booking-form  .calculations{
-    margin: 10px 0;
+.booking-form .calculations {
+  margin: 10px 0;
 }
-.booking-form  .calculations p{
-    font-weight: 500;
-    margin-bottom: 10px;
+.booking-form .calculations p {
+  font-weight: 500;
+  margin-bottom: 10px;
 }
-.booking-form input{
-    width: 100%;
-    display: block;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background: #F3F5FF;
-    border-radius: 4px;
-    margin: 10px 0;
+.booking-form input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #f3f5ff;
+  border-radius: 4px;
+  margin: 10px 0;
 }
-.booking-form .inputs{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+.booking-form .inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
-.f-class{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.f-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.inp-width{
-    min-width: 100px;
+.inp-width {
+  min-width: 100px;
 }
-.plus-minus-btn{
-    color: #3352F2;
-    font-size: 30px;
-    padding: 2px;
-    margin: 10px 10px 0px 0px;
-    word-spacing: 20px;
+.plus-minus-btn {
+  color: #3352f2;
+  font-size: 30px;
+  padding: 2px;
+  margin: 10px 10px 0px 0px;
+  word-spacing: 20px;
 }
-.btn-style{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    color: #fff;
-    font-weight: 500;
-    background-color:  #52AF3A;
+.btn-style {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  background-color: #52af3a;
 }
-.amount{
-    display: flex;
-    justify-content: space-between;
+.amount {
+  display: flex;
+  justify-content: space-between;
 }
-#economy-increment, #economy-decrement, #first-class-increment ,#first-class-decrement{
-    font-size: 1.5rem;
-    padding: 0.2rem;
-    width: 2rem;
-    border-radius: 0.5rem;
-    border: none;
-    color: #ffffff;
-    background-color: #686666;
+#economy-increment,
+#economy-decrement,
+#first-class-increment,
+#first-class-decrement {
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  width: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #ffffff;
+  background-color: #686666;
 }
-#economy-increment:hover, #economy-decrement:hover, #first-class-increment:hover ,#first-class-decrement:hover{
-    color: #e0d20d;
-    background-color: #0e31a1;
+#economy-increment:hover,
+#economy-decrement:hover,
+#first-class-increment:hover,
+#first-class-decrement:hover {
+  color: #e0d20d;
+  background-color: #0e31a1;
 }
 
 /* extra section  */
-#submit-area{
-    display: none;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+#submit-area {
+  display: none;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
-#submit-area h1{
-    padding: 1rem;
-    color: rgb(19, 67, 122);
-    font-size: 2.5rem;
-    color: #ffffff;
+#submit-area h1 {
+  padding: 1rem;
+  color: rgb(19, 67, 122);
+  font-size: 2.5rem;
+  color: #ffffff;
 }
-.submit-area{
-    box-shadow: 10px 10px 20px #b9e6ae;
-    border:none;
-    width: 30%;
-    margin: auto;
-    padding: 4rem;
-    border-radius: 0.5rem;
-    background-color: #66c0a2;
-    
+.submit-area {
+  box-shadow: 10px 10px 20px #b9e6ae;
+  border: none;
+  width: 30%;
+  margin: auto;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  background-color: #66c0a2;
 }
-.submit-area h3{
-    color: #256e25;
-    font-size: 2rem;
+.submit-area h3 {
+  color: #256e25;
+  font-size: 2rem;
 }
-.submit-area h5{
-    color: #1623e0;
-    font-size: 1.6rem;
+.submit-area h5 {
+  color: #1623e0;
+  font-size: 1.6rem;
 }
-#purchase, #dollar {
-    color: crimson;
+#purchase,
+#dollar {
+  color: crimson;
 }
-#journey{
-    padding-top: 1.5rem;
-    color: #c919a3;
+#journey {
+  padding-top: 1.5rem;
+  color: #c919a3;
+}
+#back-btn {
+  margin-top: 10px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0.3rem;
+  box-shadow: 5px 5px 10px #7db9e9;
+  font-weight: bold;
+  background-color: #130a1a;
+  color: #ffffff;
 }

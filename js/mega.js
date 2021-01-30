@@ -99,4 +99,4 @@ bookNow.addEventListener('click', function () {
     submitTicket();
 });
 
-
+//Closing Here!
