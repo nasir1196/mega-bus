@@ -122,3 +122,16 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#economy-increment, #economy-decrement, #first-class-increment ,#first-class-decrement{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #ffffff;
+    background-color: #686666;
+}
+#economy-increment:hover, #economy-decrement:hover, #first-class-increment:hover ,#first-class-decrement:hover{
+    color: #e0d20d;
+    background-color: #0e31a1;
+}
