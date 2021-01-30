@@ -146,7 +146,19 @@ bookNow.addEventListener('click',function(){
     buyArea.style.display='none';
     const submitArea=document.getElementById('submit-area');
     submitArea.style.display='block';
-    
+
+
+    const firstClassTicketCount = getTicketValue('first-class-ticket-count');
+    const economyTicketCount = getTicketValue('economy-ticket-count');
+    const totalTicketValue = firstClassTicketCount * 150 + economyTicketCount * 100;
+
+    const countSubTotal = document.getElementById('sub-total').innerText = totalTicketValue;
+    const tax = Math.round(countSubTotal * 0.1);
+    const totalTax = document.getElementById('total-tax').innerText = tax;
+
+    const grandTotal = totalTicketValue + totalTax;
+    const purchase=document.getElementById('grand-total').innerText = grandTotal;
+    document.getElementById('purchase').innerText=purchase;
 })
 
 
