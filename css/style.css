@@ -19,7 +19,7 @@ nav{
     padding: 20px 0;
 }
 .container{
-    width: 1200px;
+    width: 100%;
     max-width: 85%;
     margin: 0 auto;
 }
@@ -134,4 +134,33 @@ nav ul li a:hover, a.active{
 #economy-increment:hover, #economy-decrement:hover, #first-class-increment:hover ,#first-class-decrement:hover{
     color: #e0d20d;
     background-color: #0e31a1;
+}
+
+/* extra section  */
+#submit-area{
+    /* display: none; */
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#submit-area h1{
+    padding: 1rem;
+    color: rgb(19, 67, 122);
+    font-size: 2.5rem;
+}
+.submit-area{
+    box-shadow: 10px 10px 20px #b9e6ae;
+    border:none;
+    width: 30%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.submit-area h3{
+    color: #256e25;
+    font-size: 2rem;
+}
+.submit-area h5{
+    color: #1623e0;
+    font-size: 1.2rem;
 }
