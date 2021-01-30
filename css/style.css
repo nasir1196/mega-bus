@@ -154,7 +154,7 @@ nav ul li a:hover, a.active{
     border:none;
     width: 30%;
     margin: auto;
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 0.5rem;
     background-color: #66c0a2;
     
@@ -165,8 +165,12 @@ nav ul li a:hover, a.active{
 }
 .submit-area h5{
     color: #1623e0;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 #purchase, #dollar {
     color: crimson;
+}
+#journey{
+    padding-top: 1.5rem;
+    color: #c919a3;
 }
