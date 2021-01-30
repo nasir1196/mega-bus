@@ -22,7 +22,7 @@ function totalTicketCalculate() {
 
 
 // Total Ticket value
-function addChangeTicketValue(increment, classOfTicket, ticketPrice, grandTotalPrice) {
+function addChangeTicketValue(increment, classOfTicket) {
     const ticketCount = document.getElementById(classOfTicket);
     const countTicket = parseInt(ticketCount.value);
     let countNewTicket = countTicket;
@@ -40,32 +40,28 @@ function addChangeTicketValue(increment, classOfTicket, ticketPrice, grandTotalP
 // Creating Handle for first class Ticket increment 
 const firstClassIncrementBtn = document.getElementById('first-class-increment');
 firstClassIncrementBtn.addEventListener('click', function () {
-    const ticketRate = 150;
-    addChangeTicketValue(true, 'first-class-ticket-count', ticketRate, 'grand-total');
+    addChangeTicketValue(true, 'first-class-ticket-count');
 });
 
 
 // Creating Handle for first Ticket class decrement 
 const firstClassDecrementBtn = document.getElementById('first-class-decrement');
 firstClassDecrementBtn.addEventListener('click', function () {
-    const ticketRate = 150;
-    addChangeTicketValue(false, 'first-class-ticket-count', ticketRate, 'grand-total');
+    addChangeTicketValue(false, 'first-class-ticket-count');
 });
 
 
 // Creating Handle for economy Ticket increment 
 const economyIncrementBtn = document.getElementById('economy-increment');
 economyIncrementBtn.addEventListener('click', function () {
-    const ticketRate = 100;
-    addChangeTicketValue(true, 'economy-ticket-count', ticketRate, 'grand-total');
+    addChangeTicketValue(true, 'economy-ticket-count');
 });
 
 
 // Creating Handle for economy Ticket decrement 
 const economyDecrementBtn = document.getElementById('economy-decrement');
 economyDecrementBtn.addEventListener('click', function () {
-    const ticketRate = 100;
-    addChangeTicketValue(false, 'economy-ticket-count', ticketRate, 'grand-total');
+    addChangeTicketValue(false, 'economy-ticket-count');
 });
 
 
