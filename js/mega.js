@@ -4,6 +4,8 @@ function getTicketValue(ticket) {
     const countTicketValue = parseInt(ticketValue.value);
     return countTicketValue;
 }
+
+
 // Calculate total ticket
 function totalTicketCalculate() {
     const firstClassTicketCount = getTicketValue('first-class-ticket-count');
@@ -17,6 +19,8 @@ function totalTicketCalculate() {
     const grandTotal = totalTicketValue + totalTax;
     document.getElementById('grand-total').innerText = grandTotal;
 }
+
+
 // Total Ticket value
 function addChangeTicketValue(increment, classOfTicket, ticketPrice, grandTotalPrice) {
     const ticketCount = document.getElementById(classOfTicket);
@@ -134,3 +138,6 @@ economyDecrementBtn.addEventListener('click', function () {
         //     const grandTotal = subTotal + totalTax;
         //     document.getElementById('grand-total').innerText = grandTotal;
         // })
+
+        // crate handler for submit area 
+
